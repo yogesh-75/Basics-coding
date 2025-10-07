@@ -1,3 +1,26 @@
+# %%
+
 #max among 3 values
+"""a,b,c=list(map(int,input().split()))
+print(max(a,b,c))"""
+
 a,b,c=list(map(int,input().split()))
-print(max(a,b,c))
+if a>b:
+    t=a
+else:
+    t=b
+if t>c:
+    print(t)
+else:
+    print(c)
+
+# %%
+
+#Add Two Binary Strings
+a=input()
+b=input()
+print(bin(int(a,2)+int(b,2))[2:])
+
+# %%
+
+# %%
